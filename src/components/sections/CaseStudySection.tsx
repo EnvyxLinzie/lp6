@@ -5,26 +5,25 @@ export default function CaseStudySection() {
   const studies = [
     {
       title:
-        "For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.",
+        "Untuk sebuah perusahaan kreatif, kami berhasil memperbaiki dan mengoptimalkan kinerja MacBook Pro yang digunakan untuk desain grafis intensif, yang meningkatkan efisiensi kerja hingga 40%.",
     },
     {
       title:
-        "For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.",
+        "Bagi sebuah startup teknologi, kami mengganti komponen yang rusak pada beberapa iPhone, memungkinkan tim mereka tetap produktif tanpa gangguan selama pengembangan produk.",
     },
     {
       title:
-        "For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.",
+        "Untuk sebuah agensi pemasaran, kami melakukan perbaikan pada beberapa perangkat iPad yang digunakan untuk presentasi klien, memastikan perangkat tersebut selalu siap digunakan dalam setiap meeting penting.",
     },
   ];
   return (
     <section className="">
       <div className="flex flex-col md:flex-row gap-8 md:gap-[40px] items-center ">
         <div className="px-2 bg-primary inline-block font-medium text-h2 rounded-md">
-          Case Studies
+        Studi Kasus
         </div>
         <p className="text-p">
-          Explore Real-Life Examples of Our Proven Digital Marketing Success
-          through Our Case Studies
+        Jelajahi Contoh Nyata Kesuksesan Layanan Kami melalui Studi Kasus
         </p>
       </div>
 
@@ -35,7 +34,7 @@ export default function CaseStudySection() {
               <p className="pb-[20px]">{study.title}</p>
               <Link href="/">
                 <div className="flex gap-2 items-center">
-                  <p className="text-primary">Learn more</p>
+                  <p className="text-primary">Hubungi Kami</p>
                   <div>
                     <img src="/images/arrow_rotate.png" />
                   </div>

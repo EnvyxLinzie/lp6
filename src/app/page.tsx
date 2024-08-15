@@ -19,9 +19,6 @@ export default function Home() {
         <ServiceSection />
         <LetMakeThingsHappenSection />
         <CaseStudySection />
-        <OurWorkingProcessSection />
-        <TeamSection />
-        <ContactUsSection />
         <FooterSection />
       </div>
     </main>

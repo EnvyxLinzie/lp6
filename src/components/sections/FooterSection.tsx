@@ -14,7 +14,7 @@ function FooterSection() {
     <section className="bg-secondary rounded-t-[45px] p-8 md:p-[60px]">
       <div className="flex flex-col gap-8 md:flex-row justify-between">
         <div>
-          <img src="/images/footer_logo.png" alt="footer logo" />
+          <p className="text-white text-2xl font-bold">Caps Point</p>
         </div>
         <div className="flex flex-col md:flex-row gap-[40px]">
           {links?.map((link, index) => (
@@ -26,7 +26,7 @@ function FooterSection() {
         <div className="flex gap-[20px]">
           {socials.map((social, index) => (
             <div key={index}>
-              <img src={social} />
+              <img src={social} alt="social icon" />
             </div>
           ))}
         </div>

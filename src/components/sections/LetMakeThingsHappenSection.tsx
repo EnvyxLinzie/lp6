@@ -6,16 +6,15 @@ function LetMakeThingsHappenSection() {
     <section className="bg-accent rounded-[45px] p-[50px] md:p-[60px] relative">
       <div className="md:pr-[22rem]">
         <p className="text-h3Mobile md:text-h3 font-medium">
-          Let&apos;s make things happen
+        Mari Wujudkan Impian Anda
         </p>
 
         <p className="my-[26px]">
-          Contact us today to learn more about how our digital marketing
-          services can help your business grow and succeed online.
+        Hubungi kami hari ini untuk mengetahui bagaimana layanan perbaikan dan pemeliharaan Apple kami dapat membantu bisnis Anda tetap berjalan lancar dan efisien. Kami siap membantu Anda menjaga perangkat Apple Anda dalam kondisi terbaiknya.
         </p>
 
         <MainButton
-          text="Get your free proposal"
+          text="Konsultasi Sekarang"
           classes="bg-secondary text-white text-[18px] w-full md:w-[231px] hover:text-black"
         />
       </div>
